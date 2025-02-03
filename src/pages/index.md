@@ -32,3 +32,5 @@ description: yugoの個人ミニブログです。 # 説明
 Obsidianで書いてます。
 
 GitHubも接続できました。
+
+ほい
