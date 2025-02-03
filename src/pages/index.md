@@ -31,6 +31,17 @@ description: yugoの個人ミニブログです。 # 説明
 
 Obsidianで書いてます。
 
-GitHubも接続できました。
+Gitプラグインも導入しました。
 
-ほい
+
+Astroで構築しています。  
+Obsidianで執筆します。
+
+
+## 見出しもかけます。
+
+
+画像もOK
+
+![cat](../assets/cat.jpeg)
+
