@@ -31,14 +31,4 @@ description: yugoの個人ミニブログです。 # 説明
 
 Obsidianで書いてます。
 
-
-良い
-
-
-おおお
-テストaaa
-git
-
-
-- aaa
-- aaa
+GitHubも接続できました。
