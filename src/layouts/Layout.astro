@@ -1,0 +1,31 @@
+---
+const { frontmatter } = Astro.props;
+
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>85mm</title>
+	</head>
+	<body>
+		<header class="header">
+			<h1>{frontmatter.title}</h1>
+			<p class="header-description">{frontmatter.description}</p>
+		</header>
+		<div class="container">
+
+			<slot />
+		</div>
+	</body>
+</html>
+
+<style is:global>
+  /* 以下、スタイル */
+  h1{
+	color: #3e7a50;
+  }
+</style>
